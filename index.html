@@ -7,9 +7,35 @@
     <title>Flash Reparo</title>
   </head>
   <body>
-    <header class="w-full h-20 bg-bg-gray-light flex justify-center px-2 py-4">
-      <img src="/public/images/logo-flash-reparo.png" width="120" alt="Logo da Flash Reparo"/>
+    <header class="w-full h-20 bg-bg-gray-light flex justify-center px-2 py-4 fixed">
+      <img src="/public/images/logo-flash-reparo.png" width="100" alt="Logo da Flash Reparo"/>
     </header>
-    <script type="module" src="/src/main.ts"></script>
+    <section 
+      class="w-full h-lvh linear-gradient(to bottom, bg-bg 20%, transparent) pt-20">
+      <div class="w-full h-full bg-[url('/public/images/background-hero.png')] bg-no-repeat md:bg-cover md:bg-center bg-contain bg-top flex justify-center items-start md:items-center px-4 md:p-8 relative md:static">
+        <div class="absolute md:static">
+          <div class="">
+            <p class="font-bold md:text-6xl text-base text-white md:leading-tight">
+              ACESSE A <bold class="text-primary">MAIOR</bold> <br>
+              COMUNIDADE DE <br>
+              <bold class="text-primary">TÉCNICOS DO BRASIL</bold>
+            </p>
+            <p class="font-medium text-white mt-2 text-sm md:text-2xl">
+              <bold class="text-primary">Fature em média R$10.000 por mês</bold><br>
+              com Reparo de Celulares de casa</p>
+          </div>
+          <a href="#" class="">
+            <button class="btn-primary bg-primary mt-12">
+              <span class="hidden md:inline">Quero garantir o meu lugar</span>
+              <span class="inline md:hidden">Acessar agora</span>
+            </button>
+          </a>
+        </div>
+        <div>
+          <img src="/public/images/hero.png" alt="Técnico segurando celulares" class="h-auto" loading="eager">
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts" defer></script>
   </body>
 </html>

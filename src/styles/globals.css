@@ -16,3 +16,7 @@
     --color-red: #FF0000;
     --color-gray: #D9D9D9;
 }
+
+.btn-primary {
+    @apply rounded-lg py-2 p-4 md:p-6 uppercase focus:ring ring-primary font-extrabold hover:transition-all hover:scale-105 duration-200
+}
