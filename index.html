@@ -15,10 +15,10 @@
     
     <section 
       class="w-full md:h-[100vh] pt-20 bg-bg">
-      <div class="w-full md:h-full bg-[url('/public/images/background.png')] md:bg-[url('/public/images/background.png')] bg-no-repeat md:bg-cover md:bg-center bg-contain bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-60 md:p-8 -space-x-60">
+      <div class="w-full md:h-full sm:bg-[url('/public/images/background.png')] md:bg-[url('/public/images/background-top.png')] bg-[url('/public/images/background-top.png')] bg-no-repeat bg-cover md:bg-center  bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-60 md:p-8 -space-x-60">
         <div class="z-10">
           <div class="">
-            <p class="font-bold lg:text-xl 2xl:text-5xl text-base text-white md:leading-loose">
+            <p class="font-bold text-base md:text-2xl lg:text-5xl text-white leading-loose">
               ACESSE A <bold class="text-primary">MAIOR</bold> <br>
               COMUNIDADE DE <br>
               <bold class="text-primary">TÉCNICOS DO BRASIL</bold>
@@ -34,17 +34,30 @@
             </button>
           </a>
         </div>
-        <!-- <div class="relative w-full max-w-5xl mx-auto hidden md:block">
+        <div class="relative w-full max-w-5xl min-w-80 mx-auto hidden md:block">
           <img src="/public/images/hero.png" alt="Técnico segurando celulares" class="w-full h-auto" loading="eager">
-        </div> -->
+        </div>
       </div>
       
       <!-- Banner escuro -->
-      <div class="w-full h-40 border-2 border-red bg-bg">
+      <div class="w-full h-40 bg-bg">
 
       </div>
     </section>
     <!-- Section inicial -->
+
+    <section class="text-center w-full bg-bg text-white py-8 px-4 flex justify-center flex-col md:flex-wrap wrap gap-4 items-center md:justify-between">
+      <div class="max-w-lg">
+        <p class="font-semibold md:text-4xl md:text-left">Não importa se você está começando <span class="text-primary">do zero</span> ou se já tenha alguma experiência.</p>
+      </div>
+
+      <div class="max-w-lg flex items-end flex-col gap-4">
+        <p class="text-right">Vou te ensinar como se tornar o <span class="text-primary">melhor técnico da sua região</span> e faturar muita grana pra ter sua <span class="text-primary">liberdade financeira.</span></p>
+        <button class="btn-primary bg-primary hidden md:block text-black">
+          Sim! Quero ter acesso
+        </button>
+      </div>
+    </section>
     <script type="module" src="/src/main.ts" defer></script>
   </body>
 </html>
