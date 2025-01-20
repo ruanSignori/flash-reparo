@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-    --color-primary: #FFC119;
+  --color-primary: #FFC119;
 
-    --color-bg: #161616;
-    --color-bg-light: #1D1D1D;
-    --color-bg-gray: #232323;
-    --color-bg-gray-light: #252525;
+  --color-bg: #161616;
+  --color-bg-light: #1D1D1D;
+  --color-bg-gray: #232323;
+  --color-bg-gray-light: #252525;
 
-    --color-black: #000000;
-    --color-white: #FFFFFF;
-    --color-green: #3FFF62;
-    --color-red: #FF0000;
-    --color-gray: #D9D9D9;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-green: #3FFF62;
+  --color-red: #FF0000;
+  --color-gray: #D9D9D9;
 }
 
 .btn-primary {
-    @apply rounded-lg py-2 p-4 md:p-6 uppercase focus:ring ring-primary font-extrabold hover:transition-all hover:scale-105 duration-200
+  @apply rounded-lg py-2 px-4 md:p-6 uppercase focus:ring ring-primary font-extrabold text-xs md:text-base hover:transition-all hover:scale-105 duration-200
 }

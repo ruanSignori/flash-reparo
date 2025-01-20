@@ -6,21 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flash Reparo</title>
   </head>
-  <body>
-    <header class="w-full h-20 bg-bg-gray-light flex justify-center px-2 py-4 fixed">
+  <body class="overflow-x-hidden">
+    <!-- Header -->
+    <header class="w-full h-20 bg-bg-gray-light flex justify-center px-2 py-4 fixed z-50">
       <img src="/public/images/logo-flash-reparo.png" width="100" alt="Logo da Flash Reparo"/>
     </header>
+    <!-- Header -->
+    
     <section 
-      class="w-full h-lvh linear-gradient(to bottom, bg-bg 20%, transparent) pt-20">
-      <div class="w-full h-full bg-[url('/public/images/background-hero.png')] bg-no-repeat md:bg-cover md:bg-center bg-contain bg-top flex justify-center items-start md:items-center px-4 md:p-8 relative md:static">
-        <div class="absolute md:static">
+      class="w-full md:h-[100vh] pt-20 bg-bg">
+      <div class="w-full md:h-full bg-[url('/public/images/background.png')] md:bg-[url('/public/images/background.png')] bg-no-repeat md:bg-cover md:bg-center bg-contain bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-60 md:p-8 -space-x-60">
+        <div class="z-10">
           <div class="">
-            <p class="font-bold md:text-6xl text-base text-white md:leading-tight">
+            <p class="font-bold lg:text-xl 2xl:text-5xl text-base text-white md:leading-loose">
               ACESSE A <bold class="text-primary">MAIOR</bold> <br>
               COMUNIDADE DE <br>
               <bold class="text-primary">TÉCNICOS DO BRASIL</bold>
             </p>
-            <p class="font-medium text-white mt-2 text-sm md:text-2xl">
+            <p class="font-medium text-white mt-4 text-sm md:text-2xl">
               <bold class="text-primary">Fature em média R$10.000 por mês</bold><br>
               com Reparo de Celulares de casa</p>
           </div>
@@ -31,11 +34,17 @@
             </button>
           </a>
         </div>
-        <div>
-          <img src="/public/images/hero.png" alt="Técnico segurando celulares" class="h-auto" loading="eager">
-        </div>
+        <!-- <div class="relative w-full max-w-5xl mx-auto hidden md:block">
+          <img src="/public/images/hero.png" alt="Técnico segurando celulares" class="w-full h-auto" loading="eager">
+        </div> -->
+      </div>
+      
+      <!-- Banner escuro -->
+      <div class="w-full h-40 border-2 border-red bg-bg">
+
       </div>
     </section>
+    <!-- Section inicial -->
     <script type="module" src="/src/main.ts" defer></script>
   </body>
 </html>
