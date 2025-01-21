@@ -18,5 +18,5 @@
 }
 
 .btn-primary {
-  @apply rounded-lg px-4 md:px-4 md:py-4 uppercase focus:ring ring-primary font-extrabold text-xs md:text-base hover:transition-all hover:scale-105 duration-200 py-0
+  @apply rounded-lg px-4 py-2 md:p-4 uppercase focus:ring ring-primary font-extrabold text-xs md:text-base hover:transition-all hover:scale-105 duration-200
 }
