@@ -32,3 +32,7 @@ p {
 .banner-black {
   @apply w-full h-40 bg-bg block
 }
+
+b {
+ color: var(--color-primary);
+}

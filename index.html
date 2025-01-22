@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/flash-icon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flash Reparo</title>
   </head>
@@ -13,18 +13,19 @@
     </header>
     <!-- Header -->
     
+    <!-- Section Hero -->
     <section 
       class="w-full md:h-[100vh] pt-20 bg-bg">
-      <div class="w-full md:h-full bg-[linear-gradient(to_bottom,transparent,var(--color-bg)),url('/public/images/background-top.png')] bg-no-repeat bg-cover md:bg-center bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-32 md:p-8 -space-x-60">      
+      <div class="w-full md:h-full bg-[linear-gradient(to_bottom,transparent,var(--color-bg)),url('/public/images/background-hero.png')] bg-no-repeat bg-cover md:bg-center bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-32 md:p-8 -space-x-60">      
         <div class="z-10">
           <div class="">
             <p class="font-bold text-base md:text-2xl lg:text-5xl text-white leading-loose">
-              ACESSE A <bold class="text-primary">MAIOR</bold> <br>
+              ACESSE A <b>MAIOR</b> <br>
               COMUNIDADE DE <br>
-              <bold class="text-primary">TÉCNICOS DO BRASIL</bold>
+              <b>TÉCNICOS DO BRASIL</b>
             </p>
             <p class="font-medium text-white mt-4 text-sm md:text-2xl">
-              <bold class="text-primary">Fature em média R$10.000 por mês</bold><br>
+              <b>Fature em média R$10.000 por mês</b><br>
               com Reparo de Celulares de casa</p>
           </div>
           <a href="#" class="">
@@ -35,20 +36,14 @@
           </a>
         </div>
         <div class="relative w-full max-w-5xl min-w-80 mx-auto hidden md:block">
-          <!-- Imagem -->
           <img src="/public/images/frame.png" alt="Técnico segurando celulares" class="w-full h-auto" loading="eager">
-          
-
         </div>
-        
-        
       </div>
-      
     </section>
 
     <div class="banner-black">
     </div>
-    <!-- Section inicial -->
+    <!-- Section Hero -->
 
     <section class="text-center w-full bg-bg px-4 py-8 md:p-8 flex justify-center">
       <div class="w-full max-w-screen-2xl flex justify-center flex-col lg:flex-row lg:flex-wrap wrap gap-4 items-center lg:justify-between">
@@ -60,7 +55,7 @@
   
         <div class="max-w-md flex items-end flex-col gap-4 ">
           <p class="text-center lg:text-right text-base lg:text-lg">
-            Vou te ensinar como se tornar o <bold class="text-primary">melhor técnico da sua região</bold> e faturar muita grana pra ter sua <bold class="text-primary">liberdade financeira.</bold>
+            Vou te ensinar como se tornar o <b>melhor técnico da sua região</b> e faturar muita grana pra ter sua <b>liberdade financeira.</b>
           </p>
           <button class="btn-primary bg-primary hidden lg:block text-black">
             Sim! Quero ter acesso
@@ -72,13 +67,31 @@
     <div class="banner-black">
     </div>
 
-    <section class="bg-bg w-full h-full md:h-screen">
-      <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oportunidades.png')] bg-no-repeat bg-cover bg-center">
-        <p class="text-white text-center text-xl p-8">
-          Estamos vivendo em uma era de oportunidades…
+    <!-- Section Oportunidades -->
+    <section class="bg-bg w-full h-screen">
+      <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oportunidades.png')] bg-no-repeat bg-cover bg-center flex items-center p-6 xl:py-36 gap-10 flex-col">
+        <p class="text-subtitle max-w-lg md:max-w-screen-md">
+          Estamos vivendo em uma <b>era de oportunidades…</b>
         </p>
+        <p class=" text-base lg:text-lg font-medium max-w-screen-md text-center">E se você for rápido e sair na frente pode se aproveitar desse oceano azul para criar um negócio que mude a
+          sua vida para sempre…</p>
+
+        <!--Iframe vídeo-->
+        <div class="w-2/3 h-2/3 bg-white rounded-lg">Vídeo</div>
+
+        <a href="#">
+          <button class="btn-primary bg-primary">Sim! quero ter acesso</button>
+        </a>
       </div>
     </section>
+    <!-- Section Oportunidades -->
+
+    <div class="banner-black">
+    </div>
+
+    <!-- Section Mercado -->
+
+    <!-- Section Mercao -->
     
     <script type="module" src="/src/main.ts" defer></script>
   </body>
