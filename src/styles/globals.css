@@ -38,7 +38,7 @@ b {
 }
 
 .divider {
-  @apply w-full bg-primary h-4
+  @apply w-full bg-primary h-3
 }
 
 .box {
@@ -46,5 +46,5 @@ b {
 }
 
 .box > p {
-  @apply text-bg-gray font-medium
+  @apply text-bg-gray font-medium text-xl
 }
