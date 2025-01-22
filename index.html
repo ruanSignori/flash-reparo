@@ -15,7 +15,7 @@
     
     <section 
       class="w-full md:h-[100vh] pt-20 bg-bg">
-      <div class="w-full md:h-full sm:bg-[url('/public/images/background.png')] md:bg-[url('/public/images/background-top.png')] bg-[url('/public/images/background-top.png')] bg-no-repeat bg-cover md:bg-center  bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-32 md:p-8 -space-x-60">
+      <div class="w-full md:h-full bg-[linear-gradient(to_bottom,transparent,var(--color-bg)),url('/public/images/background-top.png')] bg-no-repeat bg-cover md:bg-center bg-right flex justify-start md:justify-center items-start md:items-center py-10 pl-4 pr-32 md:p-8 -space-x-60">      
         <div class="z-10">
           <div class="">
             <p class="font-bold text-base md:text-2xl lg:text-5xl text-white leading-loose">
@@ -35,27 +35,32 @@
           </a>
         </div>
         <div class="relative w-full max-w-5xl min-w-80 mx-auto hidden md:block">
-          <img src="/public/images/hero.png" alt="Técnico segurando celulares" class="w-full h-auto" loading="eager">
+          <!-- Imagem -->
+          <img src="/public/images/frame.png" alt="Técnico segurando celulares" class="w-full h-auto" loading="eager">
+          
+
         </div>
+        
+        
       </div>
       
-      <!-- Banner escuro -->
-      <div class="w-full h-40 bg-bg">
-      </div>
     </section>
+
+    <div class="banner-black">
+    </div>
     <!-- Section inicial -->
 
-    <section class="text-center w-full bg-bg text-white px-4 py-8 md:p-8 flex justify-center">
+    <section class="text-center w-full bg-bg px-4 py-8 md:p-8 flex justify-center">
       <div class="w-full max-w-screen-2xl flex justify-center flex-col lg:flex-row lg:flex-wrap wrap gap-4 items-center lg:justify-between">
         <div class="max-w-lg lg:max-w-md xl:max-w-xl">
-          <p class="font-semibold text-2xl lg:text-4xl lg:text-left">
+          <h3 class="text-subtitle lg:text-left">
             Não importa se você está começando <span class="text-primary">do zero</span> ou se já tenha alguma <br> experiência.
-          </p>
+          </h3>
         </div>
   
         <div class="max-w-md flex items-end flex-col gap-4 ">
           <p class="text-center lg:text-right text-base lg:text-lg">
-            Vou te ensinar como se tornar o <span class="text-primary">melhor técnico da sua região</span> e faturar muita grana pra ter sua <span class="text-primary">liberdade financeira.</span>
+            Vou te ensinar como se tornar o <bold class="text-primary">melhor técnico da sua região</bold> e faturar muita grana pra ter sua <bold class="text-primary">liberdade financeira.</bold>
           </p>
           <button class="btn-primary bg-primary hidden lg:block text-black">
             Sim! Quero ter acesso
@@ -64,15 +69,17 @@
       </div>
     </section>
     
-    <!-- Banner escuro -->
-    <div class="w-full h-40 bg-bg">
+    <div class="banner-black">
     </div>
 
-    <section class="bg-bg w-full md:h-[100vh] ">
-      <div class="w-full h-full bg-[url('/public/images/background-oportunidades.png')] bg-no-repeat md:bg-cover bg-center ">
-
+    <section class="bg-bg w-full h-full md:h-screen">
+      <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oportunidades.png')] bg-no-repeat bg-cover bg-center">
+        <p class="text-white text-center text-xl p-8">
+          Estamos vivendo em uma era de oportunidades…
+        </p>
       </div>
     </section>
+    
     <script type="module" src="/src/main.ts" defer></script>
   </body>
 </html>
