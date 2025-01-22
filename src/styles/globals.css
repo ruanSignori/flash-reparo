@@ -30,7 +30,7 @@ p {
 }
 
 .banner-black {
-  @apply w-full h-40 bg-bg block
+  @apply w-full h-28 sm:h-40 bg-bg block
 }
 
 b {
