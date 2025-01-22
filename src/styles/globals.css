@@ -18,7 +18,7 @@
 }
 
 .btn-primary {
-  @apply rounded-lg px-4 py-2 md:p-4 uppercase focus:ring ring-primary font-extrabold text-xs md:text-base hover:transition-all hover:scale-105 duration-200
+  @apply rounded-lg p-3 md:p-4 uppercase focus:ring ring-primary font-extrabold text-xs md:text-base hover:transition-all hover:scale-105 duration-200
 }
 
 .text-subtitle {
@@ -26,7 +26,7 @@
 }
 
 p {
-  color: var(--color-white);
+  @apply text-white
 }
 
 .banner-black {
@@ -34,5 +34,17 @@ p {
 }
 
 b {
- color: var(--color-primary);
+  @apply text-primary
+}
+
+.divider {
+  @apply w-full bg-primary h-4
+}
+
+.box {
+  @apply border-2 border-bg-gray p-6 xl:w-4/6
+}
+
+.box > p {
+  @apply text-bg-gray font-medium
 }
