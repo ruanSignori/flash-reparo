@@ -45,7 +45,7 @@ b {
 }
 
 .box {
-  @apply border-2 border-bg-gray p-6 xl:w-4/6
+  @apply border-2 border-bg-gray mobile-sm:px-3 p-6 xl:w-4/6
 }
 
 .box > p {

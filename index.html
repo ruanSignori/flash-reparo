@@ -9,14 +9,17 @@
   <body class="overflow-x-hidden">
     <!-- Header -->
     <header class="w-full h-20 bg-bg-gray-light flex justify-center px-2 py-4 fixed z-50">
-      <img src="/public/images/logo-flash-reparo.webp" width="100" alt="Logo da Flash Reparo" loading="eager"/>
+      <a href="#hero-content" target="_self" rel="noopener">
+        <img src="/public/images/logo-flash-reparo.webp" width="100" alt="Logo da Flash Reparo" loading="lazy"/>
+      </a>
     </header>
     <!-- Header -->
     
     <!-- Section Hero -->
     <section 
+      id="hero-content"
       class="w-full md:h-[100vh] pt-20 bg-bg">
-      <div fetchpriority="high" class="w-full md:h-full bg-[linear-gradient(to_bottom,transparent,var(--color-bg)),url('/public/images/background-hero.webp')] bg-no-repeat bg-cover md:bg-center bg-right flex justify-start md:justify-center items-start md:items-center py-10 px-6 pr-32 md:p-8 -space-x-60">      
+      <div fetchpriority="high" class="w-full md:h-full bg-[linear-gradient(to_bottom,transparent,var(--color-bg)),url('/public/images/background-hero.webp')] bg-no-repeat bg-cover md:bg-center bg-right flex justify-start md:justify-center items-start md:items-center mobile-sm:px-3 py-10 px-6 md:p-8 -space-x-60">      
         <div class="z-10">
           <div class="">
             <p class="font-bold text-3xl lg:text-5xl text-white lg:leading-snug">
@@ -45,7 +48,7 @@
     </div>
     <!-- Section Hero -->
 
-    <section class="text-center w-full bg-bg px-6 py-8 md:p-8 flex justify-center">
+    <section class="text-center w-full bg-bg mobile-sm:px-3 px-6 py-8 md:p-8 flex justify-center">
       <div class="w-full max-w-screen-2xl flex justify-center flex-col lg:flex-row lg:flex-wrap wrap gap-4 items-center lg:justify-between">
         <div class="max-w-lg lg:max-w-md xl:max-w-xl">
           <h3 class="text-subtitle lg:text-left">
@@ -70,7 +73,7 @@
     <main>
       <!-- Section Oportunidades -->
       <section class="bg-bg w-full h-screen">
-        <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oportunidades.webp')] bg-no-repeat bg-cover bg-center flex items-center p-6 xl:py-20 gap-10 flex-col">
+        <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oportunidades.webp')] bg-no-repeat bg-cover bg-center flex items-center mobile-sm:px-3 p-6 xl:py-20 gap-10 flex-col">
           <p class="text-subtitle max-w-lg md:max-w-screen-md">
             Estamos vivendo em uma <b>era de oportunidades…</b>
           </p>
@@ -91,7 +94,7 @@
       </div>
 
       <!-- Section Mercado -->
-      <aside class="bg-white w-full min-h-[80vh] py-16 px-6 flex items-center flex-col gap-10">
+      <aside class="bg-white w-full min-h-[80vh] mobile-sm:px-3 py-16 px-6 flex items-center flex-col gap-10">
         <h2 class="text-bg-gray font-bold uppercase text-3xl lg:text-5xl text-center max-w-screen-xl">O mercado de smartphones é um dos
           mais lucrativos do mundo…
         </h2>
@@ -121,7 +124,7 @@
       <!-- Section Breathing-->
     <section class="bg-bg w-full h-[60vh] py-16">
         <div class="h-full w-full bg-[linear-gradient(to_right,var(--color-bg),transparent),url('/public/images/background-breathing.webp')] bg-contain bg-no-repeat bg-right flex justify-start xl:justify-center">
-          <div class="flex justify-center items-start flex-col gap-6 w-4/6 p-6 xl:p-0">
+          <div class="flex justify-center items-start flex-col gap-6 w-4/6 mobile-sm:px-3 p-6 xl:p-0">
             <p class="!text-left text-subtitle">
               Todo mundo <br>
               tem um celular… 
@@ -140,7 +143,7 @@
       </div>
 
       <!-- Section Social Profile -->
-      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-4 p-6">
+      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-4 mobile-sm:px-3 p-6">
         <h3 class="text-subtitle uppercase">Você duvida?</h3>
         <div class="divider max-w-40"></div>
         <p class="max-w-screen-sm text-center text-xl">Veja como o Bruno, um aluno meu, já está inaugurando a sua segunda loja e mudou completamente a realidade da família dele:</p>
@@ -162,7 +165,7 @@
       </div>
 
       <!-- Section Fatores -->
-      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-6 p-6">
+      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-6 mobile-sm:px-3 p-6">
         <h4 class="text-3xl font-semibold text-white">Então se você é uma pessoa que: </h4>
         <ul class="mt-8 list-disc text-white max-w-screen-lg text-xl flex flex-col gap-8 list-inside">
           <li>Está cansado de viver uma vida aprisionada, preso em uma rotina monótona e sem perspectivas reais de crescimento pessoal e financeiro? </li>
@@ -184,7 +187,7 @@
       </div>
 
       <!-- Section curso-comunidade -->
-      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-6 p-6">
+      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-6 mobile-sm:px-3 p-6">
         <h3 class="text-subtitle max-w-xl">Após ter adquirido o seu curso e fazendo parte da comunidade</h3>
         <p class="text-center">Você vai experimentar uma transformação surpreendente em sua vida.</p>
 
@@ -211,7 +214,7 @@
       </div>
 
       <!-- Section composicao curso -->
-      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-6 p-6">
+      <section class="min-h-[40vh] w-full bg-bg flex flex-col items-center gap-6 mobile-sm:px-3 p-6">
         <div class="flex flex-col gap-6 max-w-screen-xl">
           <h3 class="text-subtitle max-w-screen-md md:!text-left">Bom, e o que você vai aprender dentro da minha Plataforma de Ensino?</h3>
           <p class="self-center md:self-start">O Curso da Flash Reparo será composto por</p>
@@ -269,7 +272,7 @@
 
       <!-- Section agreement-->
       <section class="min-h-screen w-full bg-primary flex flex-col items-center">
-        <div class="bg-bg -mt-1 w-full [border-bottom-left-radius:30px] [border-bottom-right-radius:30px] md:[border-bottom-left-radius:80px] md:[border-bottom-right-radius:80px] relative py-20 p-6 flex items-center flex-col">
+        <div class="bg-bg -mt-1 w-full [border-bottom-left-radius:30px] [border-bottom-right-radius:30px] md:[border-bottom-left-radius:80px] md:[border-bottom-right-radius:80px] relative mobile-sm:px-3 py-20 p-6 flex items-center flex-col">
           <h3 class="text-subtitle text-center max-w-screen-lg">VOCÊ TERÁ ACESSO A TODO O CONTEÚDO ABAIXO 
             COM UM <b>PREÇO ESPECIAL</b>, POR TEMPO LIMITADO!
           </h3>
@@ -280,7 +283,7 @@
           </button>
         </a>
 
-        <div class="mt-12 max-w-screen-2xl p-6">
+        <div class="mt-12 max-w-screen-2xl mobile-sm:px-3 p-6">
           <h3 class="text-subtitle !text-black">Jornada de Conhecimento</h3>
 
           <div class="grid grid-cols-1 md:grid-cols-12 md:grid-rows-[auto] gap-2 mt-12">  
@@ -300,7 +303,7 @@
                 <i class="ph-bold ph-caret-down fill-current text-2xl transition-transform group-open:rotate-180"></i>
               </summary>
 
-              <div class="mt-12 p-6">
+              <div class="p-6">
                 <p class="text-primary font-semibold">Empreendedorismo</p>
                 <ul class="list-disc space-y-2 font-medium mt-3 px-6">
                   <li>Gestão de Expectativas</li>
@@ -375,7 +378,7 @@
       </div>
 
       <!-- Section Bonus -->
-      <section class="min-h-[60vh] w-full bg-bg flex flex-col items-center p-6">
+      <section class="min-h-[60vh] w-full bg-bg flex flex-col items-center mobile-sm:px-3 p-6">
         <h3 class="text-subtitle max-w-screen-md">
           Além de tudo isso, os <b>primeiros
           100 alunos</b> vão ganhar de <b>BÔNUS</b>:
@@ -411,7 +414,7 @@
 
       <!-- Section Oferta -->
       <section class="bg-bg w-full min-h-[60vh]">
-        <div  fetchpriority="low" class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oferta.webp')] bg-no-repeat bg-cover bg-center flex items-center p-6 xl:py-36 gap-10 flex-col">
+        <div  fetchpriority="low" class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oferta.webp')] bg-no-repeat bg-cover bg-center flex items-center mobile-sm:p-2 p-6 xl:py-36 gap-10 flex-col">
           <p class="text-subtitle max-w-screen-xl">
             Acesse essa oportunidade para aprender sobre Manutenção de Celulares e <b>ganhe mais de R$ 10.000 por mês. </b>
           </p>
@@ -439,7 +442,7 @@
       </div>
 
       <!-- Section Opções -->
-      <section class="bg-bg w-full min-h-[40vh] p-6">
+      <section class="bg-bg w-full min-h-[40vh] mobile-sm:px-3 p-6">
         <h3 class="text-subtitle">
           Agora você tem <b>três opções:</b>
         </h3>
@@ -479,7 +482,7 @@
 
       <!--  Section 2º oferta  -->
       <section class="bg-bg w-full h-screen">
-        <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/public/images/background-equipamentos.webp')] bg-no-repeat bg-cover bg-center flex items-center justify-center p-6 xl:py-20 gap-10 flex-col">
+        <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/public/images/background-equipamentos.webp')] bg-no-repeat bg-cover bg-center flex items-center justify-center mobile-sm:px-3 p-6 xl:py-20 gap-10 flex-col">
           <div class="w-full max-w-screen-xl flex justify-center flex-col lg:flex-row lg:flex-wrap wrap gap-4 items-center lg:justify-between">
             <div class="max-w-lg lg:max-w-md xl:max-w-xl flex flex-col gap-6">
               <h3 class="text-subtitle lg:text-left">
@@ -518,10 +521,9 @@
       </div>
 
       <!-- Section mentor -->
-      <!--  Section 2º oferta  -->
       <section class="bg-bg w-full min-h-[40vh]">
         <!-- <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/public/images/background-mentor.webp')] bg-no-repeat bg-cover bg-center flex items-center justify-start p-6 xl:py-20 gap-10 flex-col"> -->
-        <div class="w-full h-full bg-[url('/public/images/bg-mentor.png')] bg-no-repeat bg-cover bg-center flex items-center justify-start px-6 py-12 xl:py-20 gap-10 flex-col">
+        <div class="w-full h-full bg-[url('/public/images/bg-mentor.png')] bg-no-repeat bg-cover bg-center flex items-center justify-start mobile-sm:px-3 px-6 py-12 xl:py-20 gap-10 flex-col">
           <h3 class="text-subtitle">Conheça seu <b class="text-white">Mentor</b></h3>
           <div class="max-w-screen-xl flex-col-reverse lg:flex-row flex justify-center gap-24">
             <img src="/public/images/mentor.webp" width="600" alt="Mentor do curso" loading="lazy" class="aspect-3/2 object-cover" />
@@ -553,24 +555,26 @@
       <div class="banner-black">
       </div>
 
-
-      <footer class="w-full h-20 bg-bg-gray-light flex justify-center p-6 md:py-16">
+      <footer class="w-full h-20 bg-bg-gray-light flex justify-center mobile-sm:px-3 p-6 md:py-16">
         <div class="max-w-screen-xl w-full flex justify-between items-center">
-          <img src="/public/images/logo-flash-reparo.webp" width="100" alt="Logo da Flash Reparo" loading="lazy"/>
+          <a href="#hero-content" target="_self" rel="noopener">
+            <img src="/public/images/logo-flash-reparo.webp" width="100" alt="Logo da Flash Reparo" loading="lazy"/>
+          </a>
 
           <div class="flex items-center align-middle gap-6">
-            <a href="">
+            <a href="https://www.instagram.com/flashreparocurso/" target="_self" aria-label="Link para o Instagram">
               <i class="ph-bold ph-instagram-logo text-primary text-4xl"></i>
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/FlashReparo" target="_self" aria-label="Link para o Facebook">
               <i class="ph-bold ph-facebook-logo text-primary text-4xl"></i>
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/channel/UCFYod8V_-R8i5Ybel7ARPuQ" target="_self" aria-label="Link para o YouTube"> 
               <i class="ph-bold ph-youtube-logo text-primary !text-4xl"></i>
             </a>
           </div>
         </div>
       </footer>
+
     </main>
     <script type="module" src="/src/main.ts" async></script>
   </body>

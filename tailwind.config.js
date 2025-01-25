@@ -24,6 +24,9 @@ export default {
         red: 'var(--color-red)',
         gray: 'var(--color-gray)'
       },
+      screens: {
+        'mobile-sm': { max: '450px' }, // Classe personalizada para telas menores que 450px
+      },
     },
   },
   plugins: [],
