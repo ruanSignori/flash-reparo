@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --color-primary: #FFC119;
 
@@ -47,4 +48,8 @@ b {
 
 .box > p {
   @apply text-bg-gray font-medium text-xl
+}
+
+.item-agreement {
+  @apply bg-bg-light p-6 text-left md:text-center text-white font-bold text-xl rounded-lg
 }
