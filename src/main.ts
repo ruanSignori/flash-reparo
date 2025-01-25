@@ -6,4 +6,4 @@ import '@fontsource/montserrat/500.css';
 import '@fontsource/montserrat';
 
 import "@phosphor-icons/web/bold";
-
+import "@phosphor-icons/web/fill";
