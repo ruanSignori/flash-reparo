@@ -28,6 +28,10 @@
      />
      <meta property="og:type" content="website" />
      <!-- SEO -->
+
+     <link rel="preload" fetchpriority="high" as="image" href="/public/images/mentor-hero.webp" type="image/webp">
+     <link rel="preload" fetchpriority="high" as="image" href="/public/images/background-hero.webp" type="image/webp">
+
   </head>
   <body>
     <!-- Header -->
@@ -63,7 +67,7 @@
               </button>
             </a>
           </div>
-          <img src="/public/images/group-2.webp" width="600" alt="Técnico segurando celulares" class="aspect-1/2 object-cover" loading="eager">
+          <img src="/public/images/mentor-hero.webp" width="600" alt="Técnico segurando celulares" class="aspect-1/2 object-cover" loading="eager">
         </div>
         </div>
       </div>
@@ -439,7 +443,7 @@
 
       <!-- Section Oferta -->
       <section class="bg-bg w-full min-h-[60vh]">
-        <div  fetchpriority="low" class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oferta.webp')] bg-no-repeat bg-cover bg-center flex items-center mobile-sm:p-2 p-6 xl:py-36 gap-10 flex-col">
+        <div  class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/images/background-oferta.webp')] bg-no-repeat bg-cover bg-center flex items-center mobile-sm:p-2 p-6 xl:py-36 gap-10 flex-col">
           <p class="text-subtitle max-w-screen-xl">
             Acesse essa oportunidade para aprender sobre Manutenção de Celulares e <b>ganhe mais de R$ 10.000 por mês. </b>
           </p>
@@ -548,7 +552,7 @@
       <!-- Section mentor -->
       <section class="bg-bg w-full min-h-[40vh]">
         <!-- <div class="w-full h-full bg-[linear-gradient(to_top,var(--color-bg),transparent),linear-gradient(to_bottom,var(--color-bg),transparent),url('/public/images/background-mentor.webp')] bg-no-repeat bg-cover bg-center flex items-center justify-start p-6 xl:py-20 gap-10 flex-col"> -->
-        <div class="w-full h-full bg-[url('/public/images/bg-mentor.png')] bg-no-repeat bg-cover bg-center flex items-center justify-start mobile-sm:px-3 px-6 py-12 xl:py-20 gap-10 flex-col">
+        <div class="w-full h-full bg-[url('/public/images/bg-mentor.webp')] bg-no-repeat bg-cover bg-center flex items-center justify-start mobile-sm:px-3 px-6 py-12 xl:py-20 gap-10 flex-col">
           <h3 class="text-subtitle">Conheça seu <b class="text-white">Mentor</b></h3>
           <div class="max-w-screen-xl flex-col-reverse lg:flex-row flex justify-center gap-24">
             <img src="/public/images/mentor.webp" width="600" alt="Mentor do curso" loading="lazy" class="aspect-3/2 object-cover" />
