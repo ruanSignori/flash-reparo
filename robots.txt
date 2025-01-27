@@ -1,0 +1,4 @@
+Sitemap: https://www.flashreparo.com/sitemap.xml
+User-agent: *
+Disallow: /public/
+Disallow: /obrigado.html
