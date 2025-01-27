@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@fontsource/montserrat": "^5.1.1",
-    "@phosphor-icons/web": "^2.1.1"
+    "@phosphor-icons/web": "^2.1.1",
+    "lite-youtube-embed": "^0.3.3"
   }
 }
