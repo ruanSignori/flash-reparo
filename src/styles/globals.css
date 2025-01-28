@@ -96,3 +96,32 @@ b {
 html {
   scrollbar-color: var(--color-primary) var(--color-bg-light);
 }
+
+/* Classe utilizada para os cards e animações do IntersectionObserver */
+.from-left {
+  transform: translateX(-100px);
+}
+
+.from-right {
+  transform: translateX(100px);
+}
+
+.from-top {
+  transform: translateY(-100px);
+}
+
+.from-bottom {
+  transform: translateY(100px);
+}
+
+.animate-hidden {
+  opacity: 0;
+  transition: transform 0.5s cubic-bezier(0.22, 1.61, 0.36, 1), opacity 0.5s ease-in-out;
+}
+
+
+.animate-visible  {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/* Fim das Classes*/
