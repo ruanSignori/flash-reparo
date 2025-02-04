@@ -5,7 +5,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: 'index.html',        
-        obrigado: 'obrigado.html'
+        upsell: 'upsell.html'
       }
     }
   }
