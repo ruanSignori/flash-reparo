@@ -6,7 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+        sans: ['Instrument Sans', ...defaultTheme.fontFamily.sans],
+        morganite: ['Morganite', 'sans-serif'],  
+        morganite_italic: ['Morganite Italic', 'sans-serif']
       },
       colors: {
         primary: 'var(--color-primary)',

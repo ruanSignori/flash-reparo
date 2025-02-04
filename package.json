@@ -1,7 +1,7 @@
 {
   "name": "flash-reparo",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,7 +16,6 @@
     "vite": "^6.0.9"
   },
   "dependencies": {
-    "@fontsource/montserrat": "^5.1.1",
     "@phosphor-icons/web": "^2.1.1",
     "lite-youtube-embed": "^0.3.3"
   }
