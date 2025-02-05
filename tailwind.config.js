@@ -10,6 +10,7 @@ export default {
         morganite: ['Morganite', 'sans-serif'],  
         morganite_italic: ['Morganite Italic', 'sans-serif']
       },
+      
       colors: {
         primary: 'var(--color-primary)',
         bg: {
@@ -28,6 +29,14 @@ export default {
       },
       screens: {
         'mobile-sm': { max: '450px' }
+      },
+      transitionDelay: {
+        50: "50ms",
+        100: "100ms",
+        150: "150ms",
+        200: "200ms",
+        250: "250ms",
+        300: "300ms",
       },
     },
   },

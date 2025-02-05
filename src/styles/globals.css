@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -68,11 +68,11 @@
 }
 
 .text-subtitle {
-  @apply font-semibold text-2xl lg:text-4xl text-center text-white
+  @apply font-semibold text-4xl lg:text-5xl text-center text-white
 }
 
 p {
-  @apply text-white
+  @apply text-white text-xl md:text-2xl font-medium 
 }
 
 .banner-black {
@@ -88,11 +88,11 @@ b {
 }
 
 .box {
-  @apply border-2 border-bg-gray mobile-sm:p-4 p-6 xl:w-4/6
+  @apply border-4 border-bg-gray mobile-sm:p-4 p-6 xl:w-4/6
 }
 
 .box > p {
-  @apply text-bg-gray font-medium text-xl
+  @apply text-bg xl:w-5/6 
 }
 
 .box-primary {
