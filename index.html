@@ -159,7 +159,7 @@
     <!-- Section Breathing-->
     <section class="bg-bg w-full h-[40vh]">
       <div
-        class="h-full w-full bg-[linear-gradient(to_right,var(--color-bg),transparent),url('/public/images/background-breathing.webp')] bg-contain bg-no-repeat bg-top md:bg-right flex justify-start xl:justify-center items-start sm:items-center">
+        class="h-full w-full bg-[linear-gradient(to_right,var(--color-bg),transparent),url('/public/images/background-breathing.webp')] bg-cover bg-center [@media(min-width:550px)]:bg-contain bg-no-repeat [@media(min-width:550px)]:bg-top md:!bg-right flex justify-start xl:justify-center items-start sm:items-center">
         <div class="flex justify-center items-start flex-col gap-6 w-4/6 mobile-sm:px-3 p-6 xl:p-0">
           <p class="!text-left text-subtitle">
             Todo mundo <br>
@@ -518,12 +518,12 @@
             De: R$ 2.997,00
           </p>
           <p class="uppercase font-bold text-xl">Por apenas:</p>
-          <p class="text-5xl md:text-6xl lg:text-7xl text-green font-bold">12x R$49,70</p>
-          <p class=" text-green font-medium text-2xl -mt-3">ou R$497,00 à vista</p>
+          <p class="text-5xl md:text-6xl lg:text-7xl text-green font-bold">12x R$ 49,70</p>
+          <p class=" text-green font-medium text-2xl -mt-3">ou R$ 497,00 à vista</p>
         </div>
 
         <a href="https://checkout4.xgrow.com/pt/b2198636-5591-4ef9-9942-7c40df45f1a9/NzU5MjA=">
-          <button class="btn-primary bg-green" name="Acessar curso" aria-label="Acessar curso">
+          <button class="btn-primary bg-green shadow-xl shadow-green" name="Acessar curso" aria-label="Acessar curso">
             Quero acessar meu curso agora
           </button>
         </a>

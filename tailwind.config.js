@@ -10,7 +10,10 @@ export default {
         morganite: ['Morganite', 'sans-serif'],  
         morganite_italic: ['Morganite Italic', 'sans-serif']
       },
-      
+      fontSize: {
+        '12xl': '14rem',
+        '14xl': '16rem'        
+      },
       colors: {
         primary: 'var(--color-primary)',
         bg: {
