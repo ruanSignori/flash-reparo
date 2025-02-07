@@ -18,5 +18,7 @@ const observer = new IntersectionObserver((entries) => {
 const animatedElements = document.querySelectorAll('.animate-hidden');
 animatedElements.forEach((e) => observer.observe(e));
 
-// Afiliados
-// Comentado pq da erro no deploy
+// Iphone
+if (navigator.userAgent.match(/iPhone|iPad/) && !navigator.userAgent.match(/Macintosh/)) {
+  document.documentElement.classList.add("iphone");
+}

@@ -166,3 +166,11 @@ html {
   transform: translate(0, 0);
 }
 /* Fim das Classes*/
+
+
+/* Gambi para somente iphone */
+@layer utilities {
+  .iphone .iphone-text-primary {
+    @apply !text-3xl !sm:text-5xl !xl:text-6xl
+  }
+}
