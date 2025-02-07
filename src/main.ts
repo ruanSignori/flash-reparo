@@ -19,16 +19,16 @@ const animatedElements = document.querySelectorAll('.animate-hidden');
 animatedElements.forEach((e) => observer.observe(e));
 
 // Afiliados
+// Comentado pq da erro no deploy
+// function getAffiliateParams() {
 
-function getAffiliateParams() {
+//   console.log('Xgrow Affiliate Params Loaded');
 
-  console.log('Xgrow Affiliate Params Loaded');
+//   const affiliateId = new URLSearchParams(window.location.search).get('xa');
 
-  const affiliateId = new URLSearchParams(window.location.search).get('xa');
+//   return { platformId: 'b2198636-5591-4ef9-9942-7c40df45f1a9', planId: '75920', affiliateId }
 
-  return { platformId: 'b2198636-5591-4ef9-9942-7c40df45f1a9', planId: '75920', affiliateId }
-
-}
+// }
 
 const affiliateId = new URLSearchParams(window.location.search).get("xa");
 
